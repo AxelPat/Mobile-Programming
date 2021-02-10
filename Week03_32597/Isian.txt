@@ -1,0 +1,5 @@
+Ketika pemilihan item dilakukan, maka item akan berubah menjadi kalimat "Kata [x] pernah diklik"
+Ketika penambahan item dilakukan, maka akan muncul kalimat "Kata [x] telah ditambahkan"
+Namun, ketika kita melakukan penambahan item, diikuti dengan pemilihan,
+maka akan muncul kalimat "Kata [x] telah ditambahkan pernah diklik"
+yang menandakan String hanya diperpanjang, tidak di overwrite

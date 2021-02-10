@@ -1,0 +1,14 @@
+2. a. 	Ketika angka 1 dan 2 dikosongkan, akan terjadi NumberFormatException 
+      	yang menyebabkan program crash
+   b.	Sama seperti skenario diatas, ketika angka 2 dikosongkan maka terjadi
+	NumberFormatException dan juga program crash
+
+	Crashing program ini terjadi karena tidak ada nilai string yang diinput
+	sehingga tidak dapat melanjutkan perhitungan
+
+   c. 	Tetapi, ketika angka 2 diisi nilai 0, program akan menghasilkan nilai 
+	Infinity, sesuai dengan perhitungan.
+
+3. Setelah melakukan proses debugging, ditemukannya penyebab crashing program yang terjadi
+   ketika nilai angka 1 dan 2 dikosongkan. Nilai String harus diisi agar dapat menjalankan
+   proses perhitungan
