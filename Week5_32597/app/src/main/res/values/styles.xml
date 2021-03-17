@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="seekBarRed" parent="Widget.AppCompat.SeekBar">
+        <item name="android:progressTint">#FF0000</item>
+        <item name="android:colorControlActivated">#FF0000</item>
+    </style>
+    <style name="seekBarGreen" parent="Widget.AppCompat.SeekBar">
+        <item name="android:progressTint">#00FF00</item>
+        <item name="android:colorControlActivated">#00FF00</item>
+    </style>
+    <style name="seekBarBlue" parent="Widget.AppCompat.SeekBar">
+        <item name="android:progressTint">#0000FF</item>
+        <item name="android:colorControlActivated">#0000FF</item>
+    </style>
+</resources>
