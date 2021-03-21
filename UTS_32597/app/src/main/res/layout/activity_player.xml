@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="30dp"
     tools:context=".Player"
-    android:background="@color/black">
+    android:background="@color/black"
+    android:orientation="vertical">
 
     <ImageView
-
         android:layout_width="300dp"
         android:layout_height="300dp"
         android:id="@+id/logo"
-        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
         android:layout_marginBottom="10dp"
         android:src="@drawable/musiclogo"/>
 
@@ -35,6 +35,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
         android:id="@+id/mSeekBarTime"
         android:layout_below="@id/songName"/>
 
@@ -58,16 +59,18 @@
             android:src="@drawable/btnplay"
             android:layout_marginRight="40dp"
             android:layout_marginLeft="40dp"
+            android:layout_gravity="center"
             android:id="@+id/play"/>
 
         <ImageView
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:src="@drawable/btnnext"
+            android:layout_gravity="center"
             android:id="@+id/next"/>
 
     </LinearLayout>
 
 
 
-</RelativeLayout>
+</LinearLayout>
